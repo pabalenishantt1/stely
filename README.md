@@ -1,4 +1,4 @@
-# PortfolioAI - AI-Powered DeFi Portfolio Builder
+# Stely
 
 A modern web3 application that helps users optimize their DeFi portfolios using AI-powered analysis and Stacks blockchain integration.
 
@@ -16,7 +16,7 @@ A modern web3 application that helps users optimize their DeFi portfolios using 
 - **Frontend**: Next.js 15, React, TypeScript, Tailwind CSS
 - **Backend**: Next.js API Routes
 - **Blockchain**: Stacks (STX), Stacks.js
-- **AI**: OpenAI GPT-4 via Vercel AI SDK
+- **AI**: OpenAI GPT-4 / Gemini via Vercel AI SDK
 - **Data Fetching**: Stacks API, SWR for client-side caching
 - **UI Components**: shadcn/ui
 
@@ -28,30 +28,7 @@ A modern web3 application that helps users optimize their DeFi portfolios using 
 - npm or yarn
 - Stacks wallet extension (for production)
 
-### Installation
 
-1. Clone the repository
-2. Install dependencies:
-   \`\`\`bash
-   npm install
-   \`\`\`
-
-3. Set up environment variables:
-   \`\`\`bash
-   cp .env.example .env.local
-   \`\`\`
-
-4. Add your OpenAI API key:
-   \`\`\`
-   OPENAI_API_KEY=your_api_key_here
-   \`\`\`
-
-5. Run the development server:
-   \`\`\`bash
-   npm run dev
-   \`\`\`
-
-6. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Project Structure
 
@@ -96,9 +73,7 @@ A modern web3 application that helps users optimize their DeFi portfolios using 
 ## Environment Variables
 
 \`\`\`
-OPENAI_API_KEY=your_openai_api_key
 STACKS_API_URL=https://api.testnet.hiro.so
-NEXT_PUBLIC_APP_URL=http://localhost:3000
 \`\`\`
 
 ## Deployment
